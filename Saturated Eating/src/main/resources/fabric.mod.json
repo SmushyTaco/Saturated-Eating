@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "saturated_eating",
+  "version": "${version}",
+  "name": "Saturated Eating",
+  "description": "This mod lets you eat until your saturation is full.",
+  "authors": [
+    "SmushyTaco"
+  ],
+  "contact": {
+    "homepage": "https://www.smushytaco.com/",
+    "issues": "https://www.curseforge.com/minecraft/mc-mods/saturated-eating/issues/",
+    "sources": "https://github.com/SmushyTaco/Saturated-Eating/"
+  },
+  "license": "GNU Lesser General Public License version 3 (LGPLv3)",
+  "icon": "assets/saturated_eating/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "com.smushytaco.saturated_eating.SaturatedEating"
+      }
+    ]
+  },
+  "mixins": [
+    "saturated_eating.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabricloader}",
+    "fabric-api": ">=${fabric_api}",
+    "fabric-language-kotlin": ">=${fabric_language_kotlin}",
+    "minecraft": ">=${minecraft}",
+    "java": ">=${java}",
+    "owo": ">=${owo_version}"
+  }
+}
