@@ -12,7 +12,7 @@
     "issues": "https://www.curseforge.com/minecraft/mc-mods/saturated-eating/issues/",
     "sources": "https://github.com/SmushyTaco/Saturated-Eating/"
   },
-  "license": "GNU Lesser General Public License version 3 (LGPLv3)",
+  "license": "Apache-2.0",
   "icon": "assets/saturated_eating/icon.png",
   "environment": "*",
   "entrypoints": {
