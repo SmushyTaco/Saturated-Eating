@@ -1,5 +1,6 @@
 package com.smushytaco.saturated_eating
-import io.wispforest.owo.config.annotation.*
+import io.wispforest.owo.config.annotation.Config
+import io.wispforest.owo.config.annotation.Modmenu
 @Modmenu(modId = SaturatedEating.MOD_ID)
 @Config(name = SaturatedEating.MOD_ID, wrapperName = "ModConfig")
 @Suppress("UNUSED")
